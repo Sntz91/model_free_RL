@@ -1,0 +1,52 @@
+{
+    "test_config": 
+        {
+            "hp_replay_memory_capacity": 100000,
+            "hp_gamma": 0.99,
+            "hp_epsilon_start": 1.0,
+            "hp_epsilon_end": 0.1,
+            "hp_epsilon_decay_last_frame": 100000,
+            "hp_learning_rate": 0.00001,
+            "hp_replay_memory_start_after": 10000,
+            "hp_batch_size":32,
+            "hp_target_update_after": 10000,
+            "nr_of_total_frames":  25000000,
+            "nr_of_evaluation_frames": 10000,
+            "nr_of_frames_before_evaluation": 50000,
+            "hp_update_frequency": 4
+        },
+    "config_mnih2013":
+        {
+            "hp_replay_memory_capacity": 1000000, 
+            "hp_gamma": 0.99,
+            "hp_epsilon_start": 1.0,
+            "hp_epsilon_end": 0.1,
+            "hp_epsilon_decay_last_frame": 1e6,
+            "hp_learning_rate": 0.00001,
+            "hp_replay_memory_start_after": 50000,
+            "hp_batch_size":32,
+            "hp_target_update_after": 40000,
+            "nr_of_total_frames":  10e6,
+            "nr_of_evaluation_frames": 10e3,
+            "nr_of_frames_before_evaluation": 50e3,
+            "hp_update_frequency": 4
+        },
+    "config_mnih2015":
+        {
+            "hp_replay_memory_capacity": 1000000, 
+            "hp_gamma": 0.99,
+            "hp_epsilon_start": 1.0,
+            "hp_epsilon_end": 0.1,
+            "hp_epsilon_decay_last_frame": 1e6,
+            "hp_learning_rate": 0.00001,
+            "hp_replay_memory_start_after": 50000,
+            "hp_batch_size":32,
+            "hp_target_update_after": 10000,
+            "nr_of_total_frames":  50e6,
+            "nr_of_evaluation_frames": 520e3,
+            "nr_of_frames_before_evaluation": 50e3,
+            "hp_update_frequency": 4
+        }
+    
+}
+
